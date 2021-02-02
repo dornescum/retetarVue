@@ -27,19 +27,12 @@
 
 
       <v-row class="mt-5 text-center">
-
         <v-col>
-
           <v-avatar size="40">
-
             <img src="https://cdn.vuetifyjs.com/images/john.jpg">
-
           </v-avatar>
-
           <p class="grey--text subtitle-1 mt-1">`${user}`</p>
-
         </v-col>
-
       </v-row>
 
 
