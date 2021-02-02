@@ -9,9 +9,7 @@
          cols="12"
          sm="6"
          lg="4"
-
      >
-
        <v-flex>
          <v-app id="inspire">
            <v-card
@@ -147,11 +145,9 @@ name: "Starters",
 
     ],
   }),
-
   methods: {
     reserve () {
       this.loading = true
-
       setTimeout(() => (this.loading = false), 2000)
     },
   },
@@ -160,6 +156,9 @@ name: "Starters",
 
 <style scoped>
 #test{
-  min-height: 10vh;
+  min-height: 100px;
+}
+#inspire{
+  min-height: 100px;
 }
 </style>

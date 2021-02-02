@@ -16,6 +16,37 @@
     </v-app-bar>
 
     <v-navigation-drawer v-model="drawer" app class="blue-grey lighten-5">
+<!--      <v-layout column align-center>-->
+<!--        <v-flex class="mt-5">-->
+<!--          <v-avatar size="50">-->
+<!--            <img src="https://cdn.vuetifyjs.com/images/john.jpg" alt="ubuntu">-->
+<!--          </v-avatar>-->
+<!--        </v-flex>-->
+<!--      </v-layout>-->
+
+
+
+      <v-row class="mt-5 text-center">
+
+        <v-col>
+
+          <v-avatar size="40">
+
+            <img src="https://cdn.vuetifyjs.com/images/john.jpg">
+
+          </v-avatar>
+
+          <p class="grey--text subtitle-1 mt-1">`${user}`</p>
+
+        </v-col>
+
+      </v-row>
+
+
+
+
+
+
       <v-list>
         <v-list-item v-for="link in links" :key="link.text" router :to="link.route">
           <v-list-item-avatar>
