@@ -1,5 +1,5 @@
 <template>
-$END$
+<h1>vegetarian</h1>
 </template>
 
 <script>

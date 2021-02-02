@@ -1,6 +1,7 @@
 <template>
   <div class="home">
-  <h1>Homepage</h1>
+    <h1>Homepage</h1>
+   <v-btn class="hidden-md-only">click</v-btn>
   </div>
 </template>
 
@@ -10,8 +11,6 @@
 
 export default {
   name: 'Home',
-  components: {
-
-  }
+  components: {}
 }
 </script>
