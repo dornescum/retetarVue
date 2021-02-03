@@ -2,6 +2,7 @@
   <nav>
     <v-app-bar app>
       <v-app-bar-nav-icon class="grey--text" @click="drawer = !drawer"></v-app-bar-nav-icon>
+
       <v-toolbar-title class="text-capitalize grey--text">
         <span class="font-weight-light"> Recipes</span>
       </v-toolbar-title>
@@ -9,6 +10,12 @@
   src="https://upload.wikimedia.org/wikipedia/commons/5/5b/DancingFlames.jpg"
           height="40px" max-width="40px" class="ma-1"></v-img>
       <v-spacer></v-spacer>
+
+    <Dialog />
+
+
+
+
       <v-btn text color="grey">
         <span>Sign out</span>
         <v-icon right>mdi-export</v-icon>
@@ -176,8 +183,12 @@
 </template>
 
 <script>
+import Dialog from "@/components/UI/Dialog";
 export default {
   name: "Navbar",
+  components:{
+    Dialog
+  },
   data() {
     return {
       drawer: false,
