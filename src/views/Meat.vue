@@ -1,7 +1,7 @@
 <template>
   <v-container>
     <h6 class="grey--text text-center text-capitalize ma-2">{{ title }}</h6>
-
+    <Dialog />
     <v-col>
       <v-row>
         <mainComponent
@@ -27,12 +27,12 @@
 
 <script>
 import mainComponent from "@/components/mainComponent";
-
+import Dialog from "@/components/UI/Dialog";
 export default {
   components: {
-    mainComponent
+    mainComponent,
+    Dialog
   },
-
   name: "Meats",
   data() {
     return {
