@@ -40,6 +40,7 @@ export default {
   data() {
     return {
       title: "Soups",
+      // titleR: [],
       soups: [
         {
           title: "Soup .. ",
@@ -75,7 +76,7 @@ export default {
           reviews: 523,
           img: "https://images.unsplash.com/photo-1510431198580-7727c9fa1e3a?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=334&q=80",
           favorite: true,
-          chef: "Croistorasul V.",
+          chef: "Gigi V.",
 
         },
         {
@@ -233,7 +234,14 @@ export default {
 
       ]
     }
-  }
+  },
+  // computed:{
+  //   filterRecipes: function (){
+  //     return this.titleR.filter((item)=>{
+  //       return item
+  //     })
+  //   }
+  // }
 }
 </script>
 

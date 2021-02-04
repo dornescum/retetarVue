@@ -2,18 +2,22 @@
   <v-app class="grey">
     <Navbar/>
     <v-main>
-     <router-view></router-view>
+      <router-view></router-view>
     </v-main>
+    <Footer />
   </v-app>
 </template>
 
 <script>
 import Navbar from "@/components/UI/Navbar";
+import Footer from "@/components/UI/Footer";
+
 export default {
   name: 'App',
 
   components: {
-Navbar
+    Navbar,
+    Footer
   },
 
   data: () => ({
@@ -22,7 +26,7 @@ Navbar
 };
 </script>
 <style>
-.red{
+.red {
   background-color: red;
 }
 </style>

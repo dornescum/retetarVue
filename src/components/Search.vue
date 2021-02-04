@@ -42,7 +42,8 @@ export default {
   //   },
     resetSearch() {
       // setTimeout(()=> this.search = " ", 1000)
-      setTimeout(this.search = "", 1000)
+      setTimeout(this.search = null, 1000)
+
     }
   }
 }
@@ -54,4 +55,14 @@ export default {
   border-radius: 7px;
   padding-left: 15px;
 }
+@media (max-width: 768px){
+  .input-box{
+    width: 100px;
+    padding: 5px 0 5px 15px;
+    /*padding: 0;*/
+    /*display: none;*/
+  }
+}
+
+
 </style>
