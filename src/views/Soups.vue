@@ -1,6 +1,7 @@
 <template>
   <v-container>
-    <h6 class="grey--text text-center text-capitalize ma-2">{{ title }}</h6>
+    <h6 class="grey--text text-center text-capitalize ma-2 font-italic">{{ title }}</h6>
+    <Dialog />
 
     <v-col>
       <v-row>
@@ -27,10 +28,12 @@
 
 <script>
 import mainComponent from "@/components/mainComponent";
+import Dialog from "@/components/UI/Dialog";
 
 export default {
   components: {
-    mainComponent
+    mainComponent,
+    Dialog
   },
 
   name: "Soups",
@@ -39,7 +42,7 @@ export default {
       title: "Soups",
       soups: [
         {
-          title: "Ciorba de vacuta ",
+          title: "Soup .. ",
           id: "p1",
           type: "non-vegetarian",
           text: "See the recipe here",
@@ -51,7 +54,7 @@ export default {
           url: "/pasta"
         },
         {
-          title: "pasta 1",
+          title: "Soup .. ",
           id: "p2",
           type: "non-vegetarian",
           text: "See the recipe here",
@@ -63,7 +66,7 @@ export default {
 
         },
         {
-          title: "pasta 1",
+          title: "Soup .. ",
           id: "p3",
           type: "vegetarian",
           text: "See the recipe here",
@@ -72,11 +75,11 @@ export default {
           reviews: 523,
           img: "https://images.unsplash.com/photo-1510431198580-7727c9fa1e3a?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=334&q=80",
           favorite: true,
-          chef: "Croistorasul cel viteaz",
+          chef: "Croistorasul V.",
 
         },
         {
-          title: "pasta 1",
+          title: "Soup .. ",
           id: "p4",
           type: "vegetarian",
           text: "See the recipe here",
@@ -88,7 +91,7 @@ export default {
 
         },
         {
-          title: "pasta 1",
+          title: "Soup .. ",
           id: "p5",
           type: "vegetarian",
           text: "See the recipe here",
@@ -100,7 +103,7 @@ export default {
 
         },
         {
-          title: "pasta 1",
+          title: "Soup .. ",
           id: "p6",
           type: "vegetarian",
           text: "See the recipe here",
@@ -112,7 +115,7 @@ export default {
 
         },
         {
-          title: "pasta 1",
+          title: "Soup .. ",
           id: "p7",
           type: "vegetarian",
           text: "See the recipe here",
@@ -124,7 +127,7 @@ export default {
 
         },
         {
-          title: "pasta 1",
+          title: "Soup .. ",
           id: "p8",
           type: "vegetarian",
           text: "See the recipe here",
@@ -136,7 +139,7 @@ export default {
 
         },
         {
-          title: "pasta 1",
+          title: "Soup .. ",
           id: "p9",
           type: "non-vegetarian",
           text: "See the recipe here",
@@ -159,7 +162,7 @@ export default {
           chef: "Didina B"
         },
         {
-          title: "pasta 1",
+          title: "Soup .. ",
           id: "p11",
           type: "vegetarian",
           text: "See the recipe here",
@@ -170,7 +173,7 @@ export default {
           chef: "Ionela S"
         },
         {
-          title: "pasta 1",
+          title: "Soup .. ",
           id: "p12",
           type: "vegetarian",
           text: "See the recipe here",
@@ -182,7 +185,7 @@ export default {
 
         },
         {
-          title: "pasta 1",
+          title: "Soup .. ",
           id: "p13",
           type: "non-vegetarian",
           text: "See the recipe here",
@@ -193,7 +196,7 @@ export default {
           chef: "Ionel B"
         },
         {
-          title: "pasta 1",
+          title: "Soup .. ",
           id: "p14",
           type: "vegetarian",
           text: "See the recipe here",
@@ -205,7 +208,7 @@ export default {
 
         },
         {
-          title: "pasta 1",
+          title: "Soup .. ",
           id: "p15",
           type: "vegetarian",
           text: "See the recipe here",
@@ -216,7 +219,7 @@ export default {
           chef: "Gigina B"
         },
         {
-          title: "pasta 1",
+          title: "Soup .. ",
           id: "p16",
           type: "non-vegetarian",
           text: "See the recipe here",
@@ -235,8 +238,8 @@ export default {
 </script>
 
 <style scoped>
-.test {
-  display: flex;
-  flex-wrap: wrap;
-}
+/*.test {*/
+/*  display: flex;*/
+/*  flex-wrap: wrap;*/
+/*}*/
 </style>

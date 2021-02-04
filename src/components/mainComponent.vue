@@ -1,6 +1,6 @@
 <template>
 <!--  <v-layout row wrap>-->
-    <v-flex xs12 sm6 md6 lg4>
+    <v-flex xs12 sm6 md4 lg3>
       <v-card class=" ma-3">
         <a :href="url">
           <v-responsive class="pt-4">
@@ -34,7 +34,7 @@
                 size="14"
             ></v-rating>
             <div class="grey--text ml-4">
-              {{value}} {{reviews}}
+              {{value}} / {{reviews}}
             </div>
           </v-row>
         </v-card-text>

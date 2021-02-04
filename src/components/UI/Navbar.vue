@@ -4,47 +4,38 @@
       <v-app-bar-nav-icon class="grey--text" @click="drawer = !drawer"></v-app-bar-nav-icon>
 
       <v-toolbar-title class="text-capitalize grey--text">
-        <span class="font-weight-light"> Recipes</span>
+        <span class="font-weight-light d-none d-sm-flex" id="title"> Recipes</span>
       </v-toolbar-title>
-      <v-img
-  src="https://upload.wikimedia.org/wikipedia/commons/5/5b/DancingFlames.jpg"
-          height="40px" max-width="40px" class="ma-1"></v-img>
+
+      <a href="/">
+        <v-img
+            src="https://upload.wikimedia.org/wikipedia/commons/5/5b/DancingFlames.jpg"
+            height="35px" max-width="50px" class="ma-1 rounded-tl-xl"></v-img>
+      </a>
+
       <v-spacer></v-spacer>
-
-    <Dialog />
-
-
-
-
-      <v-btn text color="grey">
+<!--      <Dialog/>-->
+      <Search />
+      <v-btn text color="grey" class="d-none d-sm-flex">
         <span>Sign out</span>
         <v-icon right>mdi-export</v-icon>
       </v-btn>
     </v-app-bar>
 
     <v-navigation-drawer v-model="drawer" app class="blue-grey lighten-5">
-<!--      <v-layout column align-center>-->
-<!--        <v-flex class="mt-5">-->
-<!--          <v-avatar size="50">-->
-<!--            <img src="https://cdn.vuetifyjs.com/images/john.jpg" alt="ubuntu">-->
-<!--          </v-avatar>-->
-<!--        </v-flex>-->
-<!--      </v-layout>-->
-
-
-
       <v-row class="mt-5 text-center">
         <v-col>
           <v-avatar size="40">
-            <img src="https://cdn.vuetifyjs.com/images/john.jpg">
+            <a href="login">
+              <img src="https://cdn.vuetifyjs.com/images/john.jpg">
+
+            </a>
+
+
           </v-avatar>
           <p class="grey--text subtitle-1 mt-1">`${user}`</p>
         </v-col>
       </v-row>
-
-
-
-
 
 
       <v-list>
@@ -56,6 +47,11 @@
         </v-list-item>
       </v-list>
 
+
+      <v-btn text color="grey" id="btnOut">
+        <span class="ma-auto">Sign out</span>
+        <v-icon right>mdi-export</v-icon>
+      </v-btn>
 
       <v-card
           max-width="400"
@@ -183,15 +179,18 @@
 </template>
 
 <script>
-import Dialog from "@/components/UI/Dialog";
+// import Dialog from "@/components/UI/Dialog";
+import Search from "@/components/Search";
 export default {
   name: "Navbar",
-  components:{
-    Dialog
+  components: {
+    // Dialog
+    Search
   },
   data() {
     return {
       drawer: false,
+      innerWidth: 600,
       links: [
         {icon: 'mdi-home ', text: 'Recipes', route: '/'},
         {icon: 'mdi-home ', text: 'chef recommends', route: '/chef'},
@@ -204,10 +203,27 @@ export default {
         {icon: 'mdi-account ', text: 'desert', route: '/desert'},
       ],
     }
-  }
+  },
+
 }
 </script>
 
 <style scoped>
+/*#title {*/
+/*  font-size: 24px;*/
+/*  padding: 2px 10px;*/
+/*}*/
+  #btnOut {
+    display: block;
+    margin: 5px auto;
+  }
+/*@media (max-width: 768px) {*/
+/*  #title {*/
+/*    display: none;*/
+/*  }*/
 
+/*  #btnOut {*/
+/*    display: none;*/
+/*  }*/
+/*}*/
 </style>

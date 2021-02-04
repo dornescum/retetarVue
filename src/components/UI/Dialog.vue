@@ -1,12 +1,12 @@
 <template>
   <v-dialog v-model="dialog" width="500">
     <template v-slot:activator="{ on }">
-      <v-btn class="grey lighten-1" dark v-on="on" >Add new recipe</v-btn>
+      <v-btn class="grey lighten-1 ml-3" dark v-on="on" >Add your recipe</v-btn>
     </template>
     <v-card>
       <v-card-title class="headline grey lighten-2" primary-title>Add a new recipe</v-card-title>
     </v-card>
-    <v-card-text>
+    <v-card-text class="grey lighten-3">
       <v-form class="px-3" ref="form">
         <v-text-field label="Title of the recipe" v-model="title" prepend-icon="mdi-silverware-fork-knife"
                       :rules="inputRules"
@@ -42,8 +42,6 @@ export default {
       if(this.$refs.form.validate()){
         console.log(this.title, this.content)
         this.$refs.form.reset()
-
-
       }
 
     }
