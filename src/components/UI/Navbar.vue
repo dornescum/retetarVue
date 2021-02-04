@@ -16,22 +16,22 @@
       <v-spacer></v-spacer>
 <!--      <Dialog/>-->
       <Search />
-      <v-btn text color="grey" class="d-none d-sm-flex">
-        <span>Sign out</span>
-        <v-icon right>mdi-export</v-icon>
-      </v-btn>
+      <a href="/login">
+        <v-btn text color="grey" class="d-none d-sm-flex">
+          <span>Sign out</span>
+          <v-icon right>mdi-export</v-icon>
+        </v-btn>
+      </a>
+
     </v-app-bar>
 
     <v-navigation-drawer v-model="drawer" app class="blue-grey lighten-5">
       <v-row class="mt-5 text-center">
         <v-col>
           <v-avatar size="40">
-            <a href="login">
+            <a href="/login">
               <img src="https://cdn.vuetifyjs.com/images/john.jpg">
-
             </a>
-
-
           </v-avatar>
           <p class="grey--text subtitle-1 mt-1">`${user}`</p>
         </v-col>

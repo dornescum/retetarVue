@@ -12,7 +12,7 @@
                       :rules="inputRules"
         ></v-text-field>
         <v-textarea label="recipe" v-model="recipe" prepend-icon="mdi-silverware-fork-knife"  :rules="inputRules"></v-textarea>
-        <v-btn class="error mx-3 mt-3" @click="submitRecipe" :loading="loading"> add </v-btn>
+        <v-btn class="error mx-3 mt-3" @click="submitRecipe" :loading="loading"  :disabled="loading"> add </v-btn>
       </v-form>
     </v-card-text>
   </v-dialog>
@@ -26,6 +26,7 @@ export default {
     return{
       title:"",
       recipe:"",
+      loader: null,
       dialog: null,
       inputRules: [
           // v => v.length >=3 || "Minimum length is 3 characters"
@@ -40,12 +41,22 @@ export default {
      //   console.log(this.title, this.recipe)
      // }
       if(this.$refs.form.validate()){
-        console.log(this.title, this.content)
+        console.log(this.title, this.recipe)
         this.$refs.form.reset()
       }
 
     }
-  }
+  },
+  // watch: {
+  //   loader () {
+  //     const l = this.loader
+  //     this[l] = !this[l]
+  //
+  //     setTimeout(() => (this[l] = false), 3000)
+  //
+  //     this.loader = null
+  //   },
+  // },
 }
 </script>
 
