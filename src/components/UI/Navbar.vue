@@ -11,8 +11,8 @@
 
       <a href="/">
         <v-img
-            src="https://upload.wikimedia.org/wikipedia/commons/5/5b/DancingFlames.jpg"
-            height="35px" max-width="50px" class="ma-1 rounded-tl-xl"></v-img>
+            src="@/assets/logo.svg"
+            height="50px" max-width="50px" class="ma-1"></v-img>
       </a>
 
       <v-spacer></v-spacer>

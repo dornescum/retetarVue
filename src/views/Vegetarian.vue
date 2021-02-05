@@ -41,7 +41,7 @@ name: "Vegetarian",
       title: "Vegetarians",
       vegetarians: [
         {
-          title: "Soup .. ",
+          title: "Vegetarian  .. ",
           id: "p1",
           type: "non-vegetarian",
           text: "See the recipe here",
@@ -53,21 +53,21 @@ name: "Vegetarian",
           url: "/pasta"
         },
         {
-          title: "Soup .. ",
+          title: "Vegetarian  .. ",
           id: "p2",
           type: "non-vegetarian",
           text: "See the recipe here",
           value: 4.3,
           reviews: 2123,
-          img: "https://images.unsplash.com/photo-1476718406336-bb5a9690ee2a?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=334&q=80",
           favorite: true,
-          chef: "Ionel B"
+          chef: "Ionel B",
+          img: "https://images.unsplash.com/photo-1490645935967-10de6ba17061?ixid=MXwxMjA3fDB8MHxzZWFyY2h8MXx8dmVnZXRhcmlhbnxlbnwwfHwwfA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60"
 
         },
         {
-          title: "Soup .. ",
+          title: "Vegetarian  .. ",
           id: "p3",
-          type: "vegetarian",
+          type: "vegan",
           text: "See the recipe here",
 
           value: 2.5,
@@ -78,9 +78,9 @@ name: "Vegetarian",
 
         },
         {
-          title: "Soup .. ",
+          title: "Vegetarian  .. ",
           id: "p4",
-          type: "vegetarian",
+          type: "vegan",
           text: "See the recipe here",
           value: 4.5,
           reviews: 723,
@@ -90,9 +90,9 @@ name: "Vegetarian",
 
         },
         {
-          title: "Soup .. ",
+          title: "Vegetarian  .. ",
           id: "p5",
-          type: "vegetarian",
+          type: "vegan",
           text: "See the recipe here",
           value: 3.5,
           reviews: 623,
@@ -102,21 +102,21 @@ name: "Vegetarian",
 
         },
         {
-          title: "Soup .. ",
+          title: "Vegetarian  .. ",
           id: "p6",
-          type: "vegetarian",
+          type: "vegan",
           text: "See the recipe here",
           value: 4.8,
           reviews: 3,
-          img: "https://images.unsplash.com/photo-1534939561126-855b8675edd7?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=334&q=80",
+          img: "https://images.unsplash.com/photo-1542986130-d0c46350cf30?ixid=MXwxMjA3fDB8MHxzZWFyY2h8MTZ8fHZlZ2V0YXJpYW58ZW58MHx8MHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60",
           favorite: true,
           chef: "Angela B",
 
         },
         {
-          title: "Soup .. ",
+          title: "Vegetarian  .. ",
           id: "p7",
-          type: "vegetarian",
+          type: "vegan",
           text: "See the recipe here",
           value: 4.9,
           reviews: 43,
@@ -126,7 +126,7 @@ name: "Vegetarian",
 
         },
         {
-          title: "Soup .. ",
+          title: "Vegetarian  .. ",
           id: "p8",
           type: "vegetarian",
           text: "See the recipe here",
@@ -138,7 +138,7 @@ name: "Vegetarian",
 
         },
         {
-          title: "Soup .. ",
+          title: "Vegetarian  .. ",
           id: "p9",
           type: "non-vegetarian",
           text: "See the recipe here",
@@ -152,7 +152,7 @@ name: "Vegetarian",
         {
           title: "onion soup",
           id: "p10",
-          type: "vegetarian",
+          type: "raw-vegan",
           text: "See the recipe here",
           value: 2.7,
           reviews: 33,
@@ -161,9 +161,9 @@ name: "Vegetarian",
           chef: "Didina B"
         },
         {
-          title: "Soup .. ",
+          title: "Vegetarian  .. ",
           id: "p11",
-          type: "vegetarian",
+          type: "raw-vegan",
           text: "See the recipe here",
           value: 3.5,
           reviews: 13,
@@ -172,9 +172,9 @@ name: "Vegetarian",
           chef: "Ionela S"
         },
         {
-          title: "Soup .. ",
+          title: "Vegetarian  .. ",
           id: "p12",
-          type: "vegetarian",
+          type: "raw-vegan",
           text: "See the recipe here",
           value: 3.8,
           reviews: 24,
@@ -184,9 +184,9 @@ name: "Vegetarian",
 
         },
         {
-          title: "Soup .. ",
+          title: "Vegetarian  .. ",
           id: "p13",
-          type: "non-vegetarian",
+          type: "raw-vegan",
           text: "See the recipe here",
           value: 3.9,
           reviews: 2234,
@@ -195,36 +195,36 @@ name: "Vegetarian",
           chef: "Ionel B"
         },
         {
-          title: "Soup .. ",
+          title: "Vegetarian  .. ",
           id: "p14",
-          type: "vegetarian",
+          type: "raw-vegan",
           text: "See the recipe here",
           value: 2.8,
           reviews: 2235,
-          img: "https://images.unsplash.com/photo-1598636011724-66aaff2f8bb7?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=752&q=80",
+          img: "https://images.unsplash.com/photo-1568625365131-079e026a927d?ixid=MXwxMjA3fDB8MHxzZWFyY2h8NTF8fHZlZ2V0YXJpYW58ZW58MHx8MHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60",
           favorite: true,
           chef: "Ionel B"
 
         },
         {
-          title: "Soup .. ",
+          title: "Vegetarian  .. ",
           id: "p15",
           type: "vegetarian",
           text: "See the recipe here",
           value: 4.2,
           reviews: 213,
-          img: "https://images.unsplash.com/photo-1608930532174-18ff53f01438?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=401&q=80",
+          img: "https://images.unsplash.com/photo-1563866715647-f42420ed5ccc?ixid=MXwxMjA3fDB8MHxzZWFyY2h8NDl8fHZlZ2V0YXJpYW58ZW58MHx8MHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60",
           favorite: true,
           chef: "Gigina B"
         },
         {
-          title: "Soup .. ",
+          title: "Vegetarian  .. ",
           id: "p16",
           type: "non-vegetarian",
           text: "See the recipe here",
           value: 4.3,
           reviews: 293,
-          img: "https://images.unsplash.com/photo-1611745451987-bd5df5565d9e?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=708&q=80",
+          img: "https://images.unsplash.com/photo-1518779578993-ec3579fee39f?ixid=MXwxMjA3fDB8MHxzZWFyY2h8ODR8fHZlZ2V0YXJpYW58ZW58MHx8MHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60",
           favorite: true,
           chef: "Ionel B"
 
@@ -240,4 +240,5 @@ name: "Vegetarian",
 .true{
   color: red;
 }
+
 </style>

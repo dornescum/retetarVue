@@ -64,7 +64,7 @@ export default {
         {
           title: "Steak .. ",
           id: "p3",
-          type: "vegetarian",
+          type: "non-vegetarian",
           text: "See the recipe here",
           value: 2.5,
           reviews: 523,
@@ -76,7 +76,7 @@ export default {
         {
           title: "Steak .. ",
           id: "p4",
-          type: "vegetarian",
+          type: "non-vegetarian",
           text: "See the recipe here",
           value: 4.5,
           reviews: 723,
@@ -87,7 +87,7 @@ export default {
         {
           title: "Steak .. ",
           id: "p5",
-          type: "vegetarian",
+          type: "non-vegetarian",
           text: "See the recipe here",
           value: 3.5,
           reviews: 623,
@@ -99,7 +99,7 @@ export default {
         {
           title: "Steak .. ",
           id: "p6",
-          type: "vegetarian",
+          type: "non-vegetarian",
           text: "See the recipe here",
           value: 4.8,
           reviews: 3,
@@ -110,7 +110,7 @@ export default {
         {
           title: "Steak .. ",
           id: "p7",
-          type: "vegetarian",
+          type: "non-vegetarian",
           text: "See the recipe here",
           value: 4.9,
           reviews: 43,
@@ -121,7 +121,7 @@ export default {
         {
           title: "Steak .. ",
           id: "p8",
-          type: "vegetarian",
+          type: "non-vegetarian",
           text: "See the recipe here",
           value: 2.5,
           reviews: 89,
@@ -143,7 +143,7 @@ export default {
         {
           title: "onion soup",
           id: "p10",
-          type: "vegetarian",
+          type: "non-vegetarian",
           text: "See the recipe here",
           value: 2.7,
           reviews: 33,
@@ -154,7 +154,7 @@ export default {
         {
           title: "Steak .. ",
           id: "p11",
-          type: "vegetarian",
+          type: "non-vegetarian",
           text: "See the recipe here",
           value: 3.5,
           reviews: 13,
@@ -165,7 +165,7 @@ export default {
         {
           title: "Steak .. ",
           id: "p12",
-          type: "vegetarian",
+          type: "non-vegetarian",
           text: "See the recipe here",
           value: 3.8,
           reviews: 24,
@@ -187,7 +187,7 @@ export default {
         {
           title: "Steak .. ",
           id: "p14",
-          type: "vegetarian",
+          type: "non-vegetarian",
           text: "See the recipe here",
           value: 2.8,
           reviews: 2235,
@@ -198,7 +198,7 @@ export default {
         {
           title: "Steak .. ",
           id: "p15",
-          type: "vegetarian",
+          type: "non-vegetarian",
           text: "See the recipe here",
           value: 4.2,
           reviews: 213,

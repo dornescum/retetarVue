@@ -40,7 +40,7 @@
         </v-card-text>
         <!--          chef-->
         <v-card-actions class="justify-center">
-          <v-btn color="grey" text>add to favorites
+          <v-btn color="grey" text> add to favorites
             <v-icon>mdi-heart</v-icon>
           </v-btn>
         </v-card-actions>
@@ -81,5 +81,8 @@ export default {
 <style>
 .font-14{
   font-size: 14px;
+}
+.v-btn > .v-btn__content .v-icon:hover{
+  color: red !important;
 }
 </style>

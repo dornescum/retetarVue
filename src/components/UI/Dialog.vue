@@ -1,5 +1,5 @@
 <template>
-  <v-dialog v-model="dialog" width="500">
+  <v-dialog v-model="dialog" width="500" >
     <template v-slot:activator="{ on }">
       <v-btn class="grey lighten-1 ml-6"   dark v-on="on" >Add your recipe</v-btn>
     </template>
@@ -44,8 +44,11 @@ export default {
         console.log(this.title, this.recipe)
         this.$refs.form.reset()
       }
-
-    }
+    },
+    // testBtn(){
+    //   console.log(this.$refs.test)
+    //   this.$refs.test.classList.add("red")
+    // }
   },
   // watch: {
   //   loader () {
@@ -61,5 +64,9 @@ export default {
 </script>
 
 <style scoped>
-
+/*.red{*/
+/*  background-color: red !important;*/
+/*  font-size: 44px;*/
+/*  z-index: -1;*/
+/*}*/
 </style>
