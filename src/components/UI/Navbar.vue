@@ -2,10 +2,12 @@
   <nav>
     <v-app-bar app>
       <v-app-bar-nav-icon class="grey--text" @click="drawer = !drawer"></v-app-bar-nav-icon>
+      <a href="/">
+        <v-toolbar-title class="text-capitalize grey--text">
+          <span class="font-weight-light d-none d-sm-flex" id="title"> Recipes</span>
+        </v-toolbar-title>
+      </a>
 
-      <v-toolbar-title class="text-capitalize grey--text">
-        <span class="font-weight-light d-none d-sm-flex" id="title"> Recipes</span>
-      </v-toolbar-title>
 
       <a href="/">
         <v-img

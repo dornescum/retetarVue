@@ -1,7 +1,7 @@
 <template>
   <v-dialog v-model="dialog" width="500">
     <template v-slot:activator="{ on }">
-      <v-btn class="grey lighten-1 ml-3" dark v-on="on" >Add your recipe</v-btn>
+      <v-btn class="grey lighten-1 ml-6"   dark v-on="on" >Add your recipe</v-btn>
     </template>
     <v-card>
       <v-card-title class="headline grey lighten-2" primary-title>Add a new recipe</v-card-title>
