@@ -229,7 +229,6 @@ export default {
           chef: "Ionel B"
 
         },
-
       ]
     }
   },

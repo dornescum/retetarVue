@@ -17,7 +17,6 @@
             :value="item.value"
             :chef="item.chef"
         />
-
       </v-row>
 
     </v-col>

@@ -11,7 +11,6 @@
               </v-img>
             </v-responsive>
           </a>
-
           <v-card-text>
             <div class="subheading text-center text-capitalize">{{ item.title }}</div>
 
