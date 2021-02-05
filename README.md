@@ -1,4 +1,4 @@
-# ninja-project
+# retetar vue vuetify
 
 ## Project setup
 ```
