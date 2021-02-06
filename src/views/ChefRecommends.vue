@@ -44,107 +44,98 @@ export default {
           text: "See the recipe here",
           value: 4.5,
           reviews: 223,
-          img: "https://images.unsplash.com/photo-1594756202469-9ff9799b2e4e?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=335&q=80",
           favorite: true,
           chef: "Ionel B",
-          url: "/starters"
+          url: "/starters",
+          img:"https://avatars.mds.yandex.net/get-zen_doc/3618266/pub_5f295b02167fe43864d71c20_5f295b05081b6d0ad0b5395b/scale_1200"
         },
         {
-          title: "Soup .. ",
+          title: "Recomandations .. ",
           id: "p2",
           type: "non-vegetarian",
           text: "See the recipe here",
           value: 4.3,
           reviews: 2123,
-          img: "https://images.unsplash.com/photo-1476718406336-bb5a9690ee2a?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=334&q=80",
           favorite: true,
-          chef: "Ionel B"
-
+          chef: "Ionel B",
+          img:"https://www.businesstraveller.com.ru/upload/medialibrary/b21/b2140a0e0d6aa7789afda66e4cfbde73.jpg"
         },
         {
-          title: "Soup .. ",
+          title: "Recomandations .. ",
           id: "p3",
           type: "vegetarian",
           text: "See the recipe here",
-
           value: 2.5,
           reviews: 523,
-          img: "https://images.unsplash.com/photo-1510431198580-7727c9fa1e3a?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=334&q=80",
           favorite: true,
           chef: "Gigi V.",
-
+          img:"https://cstor.nn2.ru/forum/data/forum/images/2018-01/195844418-best_rest_4.jpg"
         },
         {
-          title: "Soup .. ",
+          title: "Recomandations .. ",
           id: "p4",
           type: "vegetarian",
           text: "See the recipe here",
           value: 4.5,
           reviews: 723,
-          img: "https://images.unsplash.com/photo-1547592166-23ac45744acd?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=751&q=80",
           favorite: true,
           chef: "Marian P",
-
+          img:"https://gbc-cdn-public-media.azureedge.net/img11506.1426x713.jpg"
         },
         {
-          title: "Soup .. ",
+          title: "Recomandations .. ",
           id: "p5",
           type: "vegetarian",
           text: "See the recipe here",
           value: 3.5,
           reviews: 623,
-          img: "https://images.unsplash.com/photo-1578861256505-d3be7cb037d3?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=334&q=80",
           favorite: true,
           chef: "Gigi R",
-
+          img:"https://old.gastronomic.ru/uploads/places/thumb_place_1144_step_8549_1584219722_upto_1024_x_768.jpeg"
         },
         {
-          title: "Soup .. ",
+          title: "Recomandations .. ",
           id: "p6",
           type: "vegetarian",
           text: "See the recipe here",
           value: 4.8,
           reviews: 3,
-          img: "https://images.unsplash.com/photo-1534939561126-855b8675edd7?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=334&q=80",
           favorite: true,
           chef: "Angela B",
-
+          img:"https://storage.ginzadelivery.ru/product/18562/l.0389288fd08dbd7809604c7eaf85fdd0.jpg"
         },
         {
-          title: "Soup .. ",
+          title: "Recomandations .. ",
           id: "p7",
           type: "vegetarian",
           text: "See the recipe here",
           value: 4.9,
           reviews: 43,
-          img: "https://images.unsplash.com/photo-1578859318509-62790b079366?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=340&q=80",
           favorite: true,
-          chef: "Vasilica B"
-
+          chef: "Vasilica B",
+          img:"https://make-eat.ru/sushi-rollu-souse-news/2034.jpg"
         },
         {
-          title: "Soup .. ",
+          title: "Recomandations .. ",
           id: "p8",
           type: "vegetarian",
           text: "See the recipe here",
           value: 2.5,
           reviews: 89,
-          img: "https://images.unsplash.com/photo-1603105037880-880cd4edfb0d?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=334&q=80",
           favorite: true,
-          chef: "Ionel B"
-
+          chef: "Ionel B",
+          img:"https://komuzhitkhorosho.ru/wp-content/uploads/2017/06/DSC_8254-1024x683.jpg"
         },
         {
-          title: "Soup .. ",
+          title: "Recomandations .. ",
           id: "p9",
           type: "non-vegetarian",
           text: "See the recipe here",
           value: 1.5,
           reviews: 103,
-          img: "https://images.unsplash.com/photo-1603208785984-cdf985beca7a?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=343&q=80",
           favorite: true,
-          chef: "Ionel B"
-
+          chef: "Ionel B",
+          img:"https://img-global.cpcdn.com/recipes/5c821ab3df88f4c9/1502x1064cq70/stieik-iz-lososia-s-sousom-iz-shampanskogho-s-ikroi-%D0%BE%D1%81%D0%BD%D0%BE%D0%B2%D0%BD%D0%BE%D0%B5-%D1%84%D0%BE%D1%82%D0%BE-%D1%80%D0%B5%D1%86%D0%B5%D0%BF%D1%82%D0%B0.jpg"
         },
         {
           title: "onion soup",
@@ -153,78 +144,75 @@ export default {
           text: "See the recipe here",
           value: 2.7,
           reviews: 33,
-          img: "https://images.unsplash.com/photo-1549396563-92fab230895a?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=334&q=80",
           favorite: true,
-          chef: "Didina B"
+          chef: "Didina B",
+          img:"https://old.gastronomic.ru/uploads/places/thumb_place_1607_step_7905_1570998072_upto_1024_x_768.jpeg"
         },
         {
-          title: "Soup .. ",
+          title: "Recomandations .. ",
           id: "p11",
           type: "vegetarian",
           text: "See the recipe here",
           value: 3.5,
           reviews: 13,
-          img: "https://images.unsplash.com/photo-1605909388460-74ec8b204127?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=400&q=80",
           favorite: true,
-          chef: "Ionela S"
+          chef: "Ionela S",
+          img:"https://avatars.mds.yandex.net/get-altay/1684282/2a0000016a6d968bb5a6e54395c229a409f5/XXL"
         },
         {
-          title: "Soup .. ",
+          title: "Recomandations .. ",
           id: "p12",
           type: "vegetarian",
           text: "See the recipe here",
           value: 3.8,
           reviews: 24,
-          img: "https://images.unsplash.com/photo-1560684352-8497838a2229?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=456&q=80",
           favorite: true,
-          chef: "Mariana B"
-
+          chef: "Mariana B",
+          img:"https://i.pinimg.com/originals/29/2a/69/292a695b263bb7118feed5ce41907c11.jpg"
         },
         {
-          title: "Soup .. ",
+          title: "Recomandations .. ",
           id: "p13",
           type: "non-vegetarian",
           text: "See the recipe here",
           value: 3.9,
           reviews: 2234,
-          img: "https://images.unsplash.com/photo-1578020190125-f4f7c18bc9cb?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=375&q=80",
           favorite: true,
-          chef: "Ionel B"
+          chef: "Ionel B",
+          img:"https://stpetersburg4you.com/wp-content/uploads/2017/01/r5.gif"
         },
         {
-          title: "Soup .. ",
+          title: "Recomandations .. ",
           id: "p14",
           type: "vegetarian",
           text: "See the recipe here",
           value: 2.8,
           reviews: 2235,
-          img: "https://images.unsplash.com/photo-1598636011724-66aaff2f8bb7?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=752&q=80",
           favorite: true,
-          chef: "Ionel B"
-
+          chef: "Ionel B",
+          img:"https://www.bigonioncaterer.com.my/wp-content/uploads/2018/03/HOME-1.jpg"
         },
         {
-          title: "Soup .. ",
+          title: "Recomandations .. ",
           id: "p15",
           type: "vegetarian",
           text: "See the recipe here",
           value: 4.2,
           reviews: 213,
-          img: "https://images.unsplash.com/photo-1608930532174-18ff53f01438?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=401&q=80",
           favorite: true,
-          chef: "Gigina B"
+          chef: "Gigina B",
+          img:"https://i.ytimg.com/vi/l1dQEZWI-gs/maxresdefault.jpg"
         },
         {
-          title: "Soup .. ",
+          title: "Recomandations .. ",
           id: "p16",
           type: "non-vegetarian",
           text: "See the recipe here",
           value: 4.3,
           reviews: 293,
-          img: "https://images.unsplash.com/photo-1611745451987-bd5df5565d9e?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=708&q=80",
           favorite: true,
-          chef: "Ionel B"
-
+          chef: "Ionel B",
+          img:"https://www.afisha.ru/uploads/3/05/305bcf20c3c44b36aa72a7c35588289c.jpg"
         },
 
       ]

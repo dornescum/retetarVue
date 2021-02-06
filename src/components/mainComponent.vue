@@ -1,7 +1,8 @@
 <template>
 <!--  <v-layout row wrap>-->
     <v-flex xs12 sm6 md4 lg3>
-      <v-card class=" ma-3">
+<!--      fixme clasa x si y-->
+      <v-card class="ma-1">
         <a :href="url">
           <v-responsive class="pt-4">
             <v-img :src="img" height="300px" width="500px">

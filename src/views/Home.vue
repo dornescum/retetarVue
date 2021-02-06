@@ -72,7 +72,8 @@ export default {
       title: "recipes",
       showCard: true,
       categories : [
-        {categoryName: "chef recommends", text: "some shit", subTitle: "more shit" ,id: "g1", route : "/", isFav: true,
+        {categoryName: "chef recommends", text: "some shit", subTitle: "more shit" ,id: "g1", route : "/chef", isFav:
+              true,
           src:"https://images.unsplash.com/photo-1579712267685-42da80f60aa4?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80"},
         {categoryName: "starters", text: "some shit", subTitle: "more shit" ,id: "g2", route : "/starters", isFav:false,
           src:"https://images.unsplash.com/photo-1580376259349-5f4b7db4c39f?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80"},
